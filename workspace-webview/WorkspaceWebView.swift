@@ -23,6 +23,7 @@ struct WorkspaceWebView: View {
                     loadLocalHTML()
                 }
                 .webViewContentBackground(.hidden)
+                .ignoresSafeArea(.container, edges: .bottom)
         }
     }
 
