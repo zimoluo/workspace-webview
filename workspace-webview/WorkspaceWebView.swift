@@ -24,6 +24,7 @@ struct WorkspaceWebView: View {
                 }
                 .webViewContentBackground(.hidden)
                 .ignoresSafeArea(.container, edges: .bottom)
+                .scrollDisabled(true)
         }
     }
 
